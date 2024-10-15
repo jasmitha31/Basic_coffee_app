@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cf8"
+    tools:context=".RegisterActivity$HomeActivity">
+
+    <!-- 24*7 HealthCare TextView at the top -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text=""
+        android:textColor="@color/colorWhite"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Let's Consult the Best Doctor TextView below the center image -->
+
+    <!-- Center background image -->
+
+
+    <!-- Login Button -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="432dp"
+        android:text="Enchante Espresso "
+        android:textColor="@color/colorWhite"
+        android:textColorLink="@color/colorWhite"
+        android:textSize="34sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="98dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Login"
+        app:backgroundTint="#100F0F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buttonRegister"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="109dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Register"
+        app:backgroundTint="#0F0E0E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonLogin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
