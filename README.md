@@ -1,0 +1,1 @@
+a simple app performed in Android Studio usind Java languge. In this app we have 4 pages. First one is the Front page coffe shop name . Second page contains login page. Third page contains Registration page where as 4 page contains Signature dish. This app is very simple the navigation is also added.
